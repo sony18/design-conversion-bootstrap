@@ -2,7 +2,7 @@ const url_github = "https://api.github.com/users";
 let result_img = document.querySelector('.result_img');
 
 
-
+// pulled github user image for user response section
 function getUser() {
     fetch(url_github)
         .then(res => res.json())
